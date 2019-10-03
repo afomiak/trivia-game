@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>trivia game</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+	<div class="container">
+	    <h1>trivia game</h1>
+        <div id="start">trivia game</div>
+        <div id="game" style = "display: none;"></div>
+   
+        <div id="question"></div>
+        <div id="timer">
+            <div id="counter"></div> 
+            <div id="timeguage"></div>
+        </div>
+        <div id="choices">
+            <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+            <div class="choice" id="b" onclick="checkAnswer('b')"></div>
+            <div class="choice" id="c" onclick="checkAnswer('c')"></div>
+        </div>
+
+        <div id="scorecontainer" style ="display : none;"></div>
+    </div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script> 
+
+</body>
+</html>
